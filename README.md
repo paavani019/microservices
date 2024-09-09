@@ -21,12 +21,12 @@ Implementation: Created WorldController.java with a world() method using @GetMap
 Testing: Implemented JUnit tests similar to the Hello Service.
 
 _Local Testing_
-Compiled and ran both services locally on ports 8080 (Hello) and 8081 (World).
+Compiled and ran both services locally on ports 9095 (Hello) and 8095 (World).
 Verified the output through local testing.
 Containerization with Docker
 
 _Docker Setup_
-Created Dockerfiles for Hello and World services, exposing ports 8080 and 8081, respectively.
+Created Dockerfiles for Hello and World services, exposing ports 9095 and 8095, respectively.
 Built the Docker images using:
 bash
 Copy code
